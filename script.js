@@ -1,5 +1,5 @@
-const baseUrl = "http://api.openweathermap.org/data/2.5/weather?appid=4d6f7c508a8274ee740483e4aab8ca29&units=metric"
-const forcastUrl = "http://api.openweathermap.org/data/2.5/forecast?appid=4d6f7c508a8274ee740483e4aab8ca29&units=metric"
+const baseUrl = "https://api.openweathermap.org/data/2.5/weather?appid=4d6f7c508a8274ee740483e4aab8ca29&units=metric"
+const forcastUrl = "https://api.openweathermap.org/data/2.5/forecast?appid=4d6f7c508a8274ee740483e4aab8ca29&units=metric"
 const input = document.getElementById("input")
 const weatherList = document.querySelector(".weathers")
 const forcastCheck = document.getElementById("checkbox")
