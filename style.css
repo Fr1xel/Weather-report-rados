@@ -1,0 +1,85 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;	
+}
+#input{
+    width:15rem;
+    height:2rem;
+    text-align: center;
+    font-size:1.5rem;
+    border: 1px solid grey;
+    border-radius: 2rem;
+}
+.weather-text{
+    color: rgb(35, 88, 179);
+}
+.container{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+}
+.weathers{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2rem;
+}
+.weather{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:3rem;
+    color:white;
+    width:80%;
+    background-color: rgb(47, 100, 146);
+    border-radius: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media screen and (min-width: 768px){
+    .weather{
+        width:50%;
+    }
+    .container{
+        font-size: 1.5rem;
+    }
+    #input{
+        width:20rem;
+        height:3rem;
+        font-size: 2rem;
+    }
+    label{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    #checkbox{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .weather{
+        width:30%;
+    }
+}
+    
